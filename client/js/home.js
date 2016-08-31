@@ -1,4 +1,2 @@
 
-define(['lib/class', 'lib/underscore.min', 'lib/stacktrace', 'util'], function() {
-    require(["main"]);
-});
+require(['lib/class', 'lib/underscore.min', 'lib/stacktrace', 'util', 'main'], function() {});
